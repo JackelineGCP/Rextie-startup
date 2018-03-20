@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from '../header/components/header';
-import Banners from '../banners/components/banners';
-import Footer from '../footer/components/footer'
+import Header from '../../header/components/header';
+import Banners from '../../banners/components/banners';
+import Footer from '../../footer/components/footer'
 
 
 const HomeLayout = () => {
