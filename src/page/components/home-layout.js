@@ -1,9 +1,15 @@
 import React from 'react';
+import Header from '../header/components/header';
+import Banners from '../banners/components/banners';
+import Footer from '../footer/components/footer'
+
 
 const HomeLayout = () => {
   return (
     <div>
-      hello home layout
+     <Header />
+     <Banners />
+     <Footer />
     </div>
   )
 }
