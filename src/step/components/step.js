@@ -1,6 +1,7 @@
-import React from 'react'
-import Profile from '../../profile/components/profile'
-import BankAccount from '../components/bankAccounts'
+import React from 'react';
+import Profile from '../../profile/components/profile';
+import BankAccount from '../components/bankAccounts';
+import Quotation from '../../quotation/components/quotation';
 
 
 import './step.css'
@@ -48,13 +49,7 @@ const Step = (props) => {
           <form role="form">
             <div className="tab-content">
               <div className="tab-pane active" role="tabpanel" id="step1">
-                <h3>Step 1</h3>
-                <p>This is step 1</p>
-                <ul className="list-inline pull-right">
-                  <li>
-                    <button type="button" className="btn btn-primary next-step">Save and continue</button>
-                  </li>
-                </ul>
+                <Quotation />
               </div>
               <div className="tab-pane" role="tabpanel" id="step2">
                 <BankAccount />
