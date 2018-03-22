@@ -6,7 +6,7 @@ import OperationLayout from '../components/operation-layout'
 class Home extends Component {
   render() {
     return(
-      <OperationLayout />
+      <HomeLayout />
     )
   }
 }

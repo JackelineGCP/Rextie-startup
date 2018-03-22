@@ -1,4 +1,6 @@
-.logo-inline{
+.logo-inline img{
   display: inline-block;
+  width: 1px;
+  height: 1px;
 
 } 
