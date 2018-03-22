@@ -1,12 +1,13 @@
 import React from 'react'
 import SideBar from '../../sidebar/components/sidebar'
-import Profile from '../../profile/components/profile'
+
+import Step from '../../step/components/step'
 
 const Operation = () => {
   return(
-    <div>
+    <div className='row'>
       <SideBar />
-      <Profile />
+      <Step />
     </div>
   )
 }

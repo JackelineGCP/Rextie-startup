@@ -1,13 +1,6 @@
-.navbar-default {
-  background-color: #FFF;
-  margin-left: 300px;
-}
-
 /*main side bar*/
 .msb {
-  width: 300px;
   background-color: #F5F7F9;
-  position: fixed;
   left: 0;
   top: 0;
   right: auto;

@@ -3,8 +3,8 @@ import './sidebar.css'
 
 const SideBar = () => {
   return (
-    <div className="msb" id="msb">
-      <nav className="navbar navbar-default" role="navigation">
+    <div className="msb col-md-2" id="msb">
+      <nav className="navbar navbar-default col-offsert-2" role="navigation">
         <div className="navbar-header">
           <div className="brand-wrapper">
             <div className="brand-name-wrapper">

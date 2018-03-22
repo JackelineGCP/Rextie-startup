@@ -1,0 +1,12 @@
+.subtitle {
+  display: flex;
+  justify-content: center;
+}
+
+.subtitle h3 {
+  margin-right: 10px;
+}
+
+.BankAccounts-container {
+  
+}
